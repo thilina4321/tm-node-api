@@ -12,6 +12,8 @@ const taskRoutes = require('./router/task')
 app.use(userRoutes);
 app.use(taskRoutes);
 
+console.log('hello');
+
 // server running port and database running
 app.listen(port, () => {
   mongoose
